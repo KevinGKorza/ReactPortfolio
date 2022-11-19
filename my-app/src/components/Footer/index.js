@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -16,11 +15,27 @@ function Footer(){
         }
     ]
 
+    const Footer = {
+        height: "20px",
+        backgroundColor: "darkblue",
+        alightItems: "center", 
+        display: "grid", 
+        justifyContent: "center",
+         
+
+    }
+   
+    const SocialMediaLinks = {
+        color: "white",  
+    }
+
     return(
-        <footer>
+        <footer style={Footer}>
+            <section>
             {icons.map(icon =>{
-                return <a href={icon.links} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+                return <a href={icon.links} key={icon.name} target="_blank" rel="noopener noreferrer" style={SocialMediaLinks}><i className={icon.name}></i></a>
             })}
+            </section>
         </footer>
     )
 
