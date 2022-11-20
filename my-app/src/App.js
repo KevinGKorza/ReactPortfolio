@@ -1,6 +1,7 @@
 //importing
 import React, {useState} from "react";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 //importing Components 
 
@@ -8,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return <div>
-  
+  <Header/>
   <main>
 
   </main>

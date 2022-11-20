@@ -1,0 +1,9 @@
+.header{
+background-color: dodgerblue;
+line-height: 1.6;
+height: 100vh;      
+overflow: hidden;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+}
