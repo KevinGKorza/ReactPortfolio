@@ -1,0 +1,17 @@
+.active:hover {
+    color:lightblue;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+}

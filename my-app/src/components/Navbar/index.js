@@ -1,3 +1,4 @@
+import "./style.css";
 import React from "react";
 
 function Navbar(props) {
@@ -11,11 +12,11 @@ function Navbar(props) {
 
 
 
-
-    return <nav><ul>
+//Will click current page 
+    return <nav><ul className = "container">
         {pages.map((pages) =>{
-            return <li>{pages.name}</li>
-        } )}
+            return <li className = {currentPage.name === pages.name && "active"} key = {pages.name}><span onClick={() => setCurrentPage(pages)}>{pages.name}</span></li>
+        })}
         </ul></nav>
 }
 
