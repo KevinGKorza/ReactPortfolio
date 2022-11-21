@@ -12,12 +12,33 @@ import Navbar from "./components/Navbar";
 
 
 function App() {
+  const [pages] = useState([
+    {
+      name: "About Me"
+    },
+    {
+      name: "My Portfolio"
+    },
+    {
+      name: "My Resume"
+    },
+    {
+      name: "Contact Me"
+    }
+
+  ])
+
+  //Data for above pages
+  const [currentPage, setCurrentPage] = useState(pages[0])
+
   return <div>
   <Header>
-    <Navbar/>
+    <Navbar pages={pages} 
+    setCurrentPage = {setCurrentPage} 
+    currentPage = {currentPage} />
   </Header>
   <main>
-    hello there!
+  
   </main>
   <Footer/>
   </div>
