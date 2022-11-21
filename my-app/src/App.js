@@ -3,6 +3,8 @@ import React, {useState} from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+
 
 
 
@@ -38,7 +40,7 @@ function App() {
     currentPage = {currentPage} />
   </Header>
   <main>
-  
+  <Page currentPage={currentPage}></Page>
   </main>
   <Footer/>
   </div>
