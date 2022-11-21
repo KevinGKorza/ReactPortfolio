@@ -1,10 +1,11 @@
 import "./style.css";
-import React from "react";
+import React, { useEffect } from "react";
 
 function Navbar(props) {
     const {pages = [], setCurrentPage, currentPage } = props;
 
-
+//using the useEffect Hook to set the document.title to the current page
+useEffect(() => {document.title = currentPage.name}, [currentPage])
 
 
 
