@@ -7,7 +7,7 @@ import NavTabs from "../../Pages/NavTabs";
 
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('');
 
     const renderPage = () => {
       if (currentPage === 'aboutme') {

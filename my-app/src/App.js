@@ -16,7 +16,7 @@ import Page from "./components/Page";
 function App() {
   const [pages] = useState([
     {
-      name: "About Me"
+      name: "Kevin Korza's Portfolio"
     },
     {
       name: "My Portfolio"
