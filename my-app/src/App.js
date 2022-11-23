@@ -1,5 +1,5 @@
 //importing
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -34,15 +34,15 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0])
 
   return <div>
-  <Header>
-    <Navbar pages={pages} 
-    setCurrentPage = {setCurrentPage} 
-    currentPage = {currentPage} />
-  </Header>
-  <main>
-  <Page currentPage={currentPage}></Page>
-  </main>
-  <Footer/>
+    <Header>
+      <Navbar pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage} />
+    </Header>
+    <main>
+      <Page currentPage={currentPage}></Page>
+    </main>
+    <Footer />
   </div>
 }
 

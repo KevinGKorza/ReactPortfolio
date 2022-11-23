@@ -1,3 +1,4 @@
 # ReactPortfolio
 
-Hello update
+This is the React Challenge: React Portfolio
+
