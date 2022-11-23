@@ -15,8 +15,8 @@ useEffect(() => {document.title = currentPage.name}, [currentPage])
 
 //Will click current page 
     return <nav><ul className = "container">
-        {pages.map((pages) =>{
-            return <li className = {currentPage.name === pages.name && "active"} key = {pages.name}><span onClick={() => setCurrentPage(pages)}>{pages.name}</span></li>
+        {pages.map((page) =>{
+            return <li className = {currentPage.name === page.name && "active"} key = {page.name}><span onClick={() => setCurrentPage(page)}>{page.name}</span></li>
         })}
         </ul></nav>
 }

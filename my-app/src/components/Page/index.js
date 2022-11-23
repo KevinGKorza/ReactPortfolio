@@ -6,7 +6,7 @@ import MyResume from "../../Pages/myresume";
 
 
 
-function Pages({currentPage}) {
+function Page({currentPage}) {
     const renderPage = () => {
        if(currentPage.name === "aboutme"){
         return <AboutMe/>;
@@ -27,4 +27,4 @@ function Pages({currentPage}) {
     )
 }
 
-export default Pages;
+export default Page;
