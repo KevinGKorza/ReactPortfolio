@@ -13,7 +13,20 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .h1{
     font-size: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.nav nav-tabs{
+    display: grid;
+    position: fixed;
+    top: auto;
+    z-index: auto;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 10px;
+}
+
+.nav-item{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
 }
