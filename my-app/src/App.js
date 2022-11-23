@@ -22,10 +22,10 @@ function App() {
       name: "My Portfolio"
     },
     {
-      name: "My Resume"
+     name: "My Resume"
     },
     {
-      name: "Contact Me"
+    name: "Contact Me"
     }
 
   ])

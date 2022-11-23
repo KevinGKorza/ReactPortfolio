@@ -1,13 +1,14 @@
 .header{
-background-image: url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2433&q=80");
+/* background-image: url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2433&q=80"); */
 line-height: 2.0;
 height: 100vh;      
 overflow: hidden;
 justify-content: center;
 flex-wrap: wrap;
 text-align: center;
-color: white;
+color: rgb(255, 255, 255);
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: darkblue;
 
 }
 
@@ -23,10 +24,11 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     z-index: auto;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     grid-gap: 10px;
+    text-align: start;
 }
 
 .nav-item{
     color: blue;
-    text-align: center;
+    text-align: start;
     text-decoration: none;
 }
