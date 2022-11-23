@@ -17,7 +17,7 @@ function Page({currentPage}) {
        } else if (currentPage.name === "myresume"){
         return <MyResume/>;
        }
-    //    return <ContactMe/>;
+       return <ContactMe/>;
     }
 
     return (
