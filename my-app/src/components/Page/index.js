@@ -6,8 +6,9 @@ import MyResume from "../../Pages/myresume";
 import NavTabs from "../../Pages/NavTabs";
 
 
-export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('');
+export default function PortfolioContainer(props) {
+  // console.log(props.currentPage.name);
+    const [currentPage, setCurrentPage] = useState('aboutme');
 
     const renderPage = () => {
       if (currentPage === 'aboutme') {

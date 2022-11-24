@@ -1,5 +1,5 @@
 import React from 'react';
-import "../components/Navbar/style.css";
+
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -7,9 +7,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#AboutMe"
-          onClick={() => handlePageChange('AboutMe')}
+          onClick={() => handlePageChange('aboutme')}
 
-          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'aboutme' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </a>
@@ -17,9 +17,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#MyPortfolio"
-          onClick={() => handlePageChange('MyPortfolio')}
+          onClick={() => handlePageChange('myportfolio')}
 
-          className={currentPage === 'MyPortfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'myportfolio' ? 'nav-link active' : 'nav-link'}
         >
           My Portfolio
         </a>
@@ -27,10 +27,10 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#MyResume"
-          onClick={() => handlePageChange('MyResume')}
+          onClick={() => handlePageChange('myresume')}
           
 
-          className={currentPage === 'MyResume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'myresume' ? 'nav-link active' : 'nav-link'}
         >
           My Resume
         </a>
@@ -40,8 +40,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#ContactMe"
 
 
-          onClick={() => handlePageChange('ContactMe')}
-          className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange('contactme')}
+          className={currentPage === 'contactme' ? 'nav-link active' : 'nav-link'}
         >
           Contact Me
         </a>
