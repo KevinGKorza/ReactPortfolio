@@ -1,7 +1,14 @@
 import React from "react";
 
 function MyResume() {
-    return <div>MyResume</div>
+    return (
+    <div>
+        <h1> My Resume </h1>
+        
+        </div>
+
+
+    );
 }
 
 export default MyResume;

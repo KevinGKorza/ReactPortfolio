@@ -13,7 +13,8 @@ function ContactMe() {
         <div>
             <h1>Contact Me</h1>
             <p>
-                Hello! Please contact me as soon as possible!
+    
+                
             </p>
         </div>
     );
