@@ -1,12 +1,12 @@
 import React from "react";
-
+import Resume from "../Resume/Kevin_Korza_Resume.pdf";
 function MyResume() {
     return (
         <div>
             <h1> My Resume </h1>
 
             <button className="button">
-                <a className="button" href="Kevin_Korza_Resume.pdf" download="Kevin_Korza_Resume.pdf">
+            <a className="button" href={Resume} download="Kevin_Korza_Resume.pdf">
                     Download Resume
                 </a>
             </button>
