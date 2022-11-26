@@ -12,6 +12,14 @@ function Footer(){
         {
             name: "fa-brands fa-github",
             links: "https://github.com/KevinGKorza"
+        },
+        {
+            name: "fa-brands fa-twitter",
+            links: "https://twitter.com/KevinGKorza"
+        },
+        {
+            name: "fa-brands fa-youtube",
+            links: "https://www.youtube.com/channel/UCel29nlgQ7z0QlD3VPWL56g"
         }
     ]
 
