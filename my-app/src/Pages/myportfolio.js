@@ -27,6 +27,9 @@ function MyPortfolio() {
             <br>
             </br>
             <img src={require('../../src/Images/teamgenerator.png')} height={400} width={600} />
+          
+            
+            
         </ul>
         
 

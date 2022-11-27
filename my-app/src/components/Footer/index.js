@@ -29,6 +29,7 @@ function Footer(){
         alightItems: "center", 
         display: "grid", 
         justifyContent: "center",
+        
          
 
     }
