@@ -54,7 +54,13 @@ Screen Capture:
 
 
 
-GitHub Pages: 
+YouTube video:
+https://www.youtube.com/watch?v=AMYXnZd1L_E
+
+
+
+GitHub Pages:
+https://kevingkorza.github.io/ReactPortfolio/
 
 
 
