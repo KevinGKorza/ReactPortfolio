@@ -14,6 +14,11 @@ function ContactMe() {
         } setMessage(event.target.value);
     };
 
+    
+
+
+
+
     return (
         <div className="container">
             <h1>Contact Me</h1>
@@ -21,7 +26,7 @@ function ContactMe() {
                 <div className="name">
                     <label htmlFor="firstName">First Name:<br></br></label>
                     <br></br>
-                    <input type="text" name="firstName" className="firstName" />
+                    <input type="text" name="firstName" className="firstName"/>
                     <br>
                     </br>
                     <br>
