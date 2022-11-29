@@ -55,7 +55,7 @@ Screen Capture:
 
 
 GitHub Pages: 
-https://kevingkorza.github.io/ReactPortfolio/
+
 
 
 
