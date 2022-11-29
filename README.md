@@ -38,7 +38,7 @@ Acceptance Criteria:
 24. WHEN I view the footer
 25. THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-......
+.........
 
 
 
